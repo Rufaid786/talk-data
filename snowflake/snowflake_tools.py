@@ -1,5 +1,5 @@
 from langchain_core.tools import tool
-from snowflake_client import SnowflakeClient
+from snowflake.snowflake_client import SnowflakeClient
 
 client = SnowflakeClient()
 
