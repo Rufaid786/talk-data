@@ -16,8 +16,10 @@ def process_query(agent):
             break
 
         print(f"Agent is processing your query... {question}")
-        result=agent.invoke({"message":[{"role":"user", "content":question}]})    
-        print(result["messages"][-1]["content"])
+        result = agent.invoke({"messages":[{"role":"user", "content": question}]})   
+        final_message = result["messages"][-1]
+        final_answer = final_message.content
+        print(final_answer)
 
 if __name__ == "__main__":
     agent=build_snowflake_agent()
