@@ -1,4 +1,4 @@
-from agent import build_snowflake_agent
+from agents.snowflake_agent import build_snowflake_agent
 
 
 def process_query(agent):
