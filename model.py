@@ -1,8 +1,8 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 
 def create_model(api_key):
-    return ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash-lite",
-        google_api_key=api_key,
+    return ChatGroq(
+        model="openai/gpt-oss-120b", 
+        api_key=api_key,
         temperature=0,
-    )
+        max_retries=5)
