@@ -3,6 +3,8 @@ SUPERVISOR_DECISION_PROMPT = """You are a data orchestration assistant. Your job
 User question:
 {user_query}
 
+{df_info}
+
 You have the following specialists available:
 - snowflake_agent: handles questions about live business data in the warehouse.
 - excel_agent: handles questions about uploaded spreadsheets or reports.
