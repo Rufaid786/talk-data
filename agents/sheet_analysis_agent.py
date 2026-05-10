@@ -5,7 +5,7 @@ import os
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
 load_dotenv()
-model = create_model(os.getenv("GROQ_API_KEY"))
+model = create_model(os.getenv("GOOGLE_API_KEY"))
 
 
 def build_sheet_analysis_agent(df: pd.DataFrame):
