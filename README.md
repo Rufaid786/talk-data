@@ -1,2 +1,11 @@
 
-talk-data.streamlit.app
+[talk-data.streamlit.app](https://talk-data.streamlit.app/)
+
+SNOWFLAKE_USER=
+SNOWFLAKE_PASSWORD=
+SNOWFLAKE_ACCOUNT=
+SNOWFLAKE_WAREHOUSE=
+SNOWFLAKE_DATABASE=
+SNOWFLAKE_SCHEMA=
+
+GOOGLE_API_KEY=
