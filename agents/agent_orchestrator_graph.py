@@ -10,8 +10,7 @@ from agents.snowflake_agent import build_snowflake_agent
 from agents.sheet_analysis_agent import build_sheet_analysis_agent
 
 load_dotenv()
-model = create_model(os.getenv("GOOGLE_API_KEY"))
-
+model = create_model(os.getenv("GROQ_API_KEY"))
 # Define state structure using TypedDict and operator.add
 class AgentState(TypedDict):
     user_query: str
