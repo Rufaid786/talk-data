@@ -8,7 +8,7 @@ TalkData is an intelligent data analysis platform built with Streamlit and power
 - **Natural Language Data Interaction**: Ask questions about your data in plain English
 - **Multi-Agent Architecture**: Intelligent routing between different data sources and analysis types
 - **File Upload Support**: Users can upload Excel or csv files and ask their queries
-- **Snowflake Integration**: Direct querying of Snowflake databases
+- **Snowflake Integration**: Direct querying of Snowflake Warehouse
 - **Real-time Chat Interface**: Conversational AI experience
 
 ## Installation
