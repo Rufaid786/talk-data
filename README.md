@@ -76,7 +76,7 @@ The system intelligently determines whether to use uploaded data or database con
 ### Environment Variables
 
 - `GOOGLE_API_KEY`: Required for LLM functionality
-- `SNOWFLAKE_*`: Optional, for database connectivity
+- `SNOWFLAKE`: Optional, for database connectivity
 
 ### Model Configuration
 
@@ -107,5 +107,4 @@ For issues or questions:
 - Integration with additional AI models
 
 ## Explore
-
-The app is available at:talk-data.streamlit.app
+[talk-data.streamlit.app](https://talk-data.streamlit.app/)
