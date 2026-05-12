@@ -43,7 +43,7 @@ TalkData is an intelligent data analysis platform built with Streamlit and power
    ```env
    GOOGLE_API_KEY=your_google_api_key_here
 
-   # Optional: Snowflake configuration (The credentails of the snowflake warehouse which you need to connect with)
+   # Snowflake configuration (The credentails of the snowflake warehouse which you need to connect with)
    SNOWFLAKE_USER=your_snowflake_username
    SNOWFLAKE_PASSWORD=your_snowflake_password
    SNOWFLAKE_ACCOUNT=your_snowflake_account
