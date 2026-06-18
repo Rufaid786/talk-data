@@ -107,4 +107,4 @@ For issues or questions:
 - Integration with additional AI models
 
 ## Explore
-[talk-data.streamlit.app](https://talk-data.streamlit.app/)
+[talk-data.streamlit.app](https://talk-data.streamlit.app/) (credentails of snowflake was expired as it was a test account created for learning purpose)
