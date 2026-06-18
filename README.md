@@ -108,3 +108,4 @@ For issues or questions:
 
 ## Explore
 [talk-data.streamlit.app](https://talk-data.streamlit.app/) (credentails of snowflake was expired as it was a test account created for learning purpose)
+Refer a sample demo [here](https://www.linkedin.com/feed/update/urn:li:activity:7460151222289887233/)
